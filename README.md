@@ -2,8 +2,7 @@
 
 ## 📌 Project Overview
 
-The **AWS EC2 & EBS Daily Inventory Pipeline** is an EC2-hosted **Apache Airflow** pipeline that collects daily inventory data for **EC2 instances** and **EBS volumes** across multiple AWS regions and stores the results in **Amazon S3**.
-
+The **AWS EC2 & EBS Daily Inventory Pipeline** is a project I built to simplify tracking cloud resources and reduce manual effort. Instead of running scripts on my laptop, I deployed it on an **AWS EC2 server** to ensure it executes reliably every day. Using **Boto3**, the pipeline automatically collects EC2 instance and EBS volume data across multiple regions, storing it in Amazon S3 so I can analyze, audit, and optimize my cloud environment effortlessly.
 The pipeline is designed to:
 
 - Track EC2 and EBS inventory on a daily basis  
