@@ -92,23 +92,20 @@ Airflow is accessible via the EC2 public IP on port 8080:
 
 [http://18.175.176.91:8080](http://18.175.176.91:8080)
 
+
 **DAG Name:** `ec2_inventory_to_s3`  
 **Task:** `extract_ec2_data`  
 
-### DAG Capabilities
-
-- Discovers EC2 instances across multiple AWS regions  
-- Collects EBS volume metadata  
-- Logs region-level processing  
-- Writes daily **Parquet snapshots** to Amazon S3  
-- Gracefully handles regions with no resources  
 
 ### ✅ Successful DAG Execution
 
 - Status: ✅ Success  
 - Duration: ~21 seconds  
 - Task: `extract_ec2_data`  
-- Triggered by: Airflow user  
+- Triggered by: Airflow user
+
+![Airflow UI](https://github.com/Chizobaeze/AWS-EC2-EBS-Daily-Inventory-Pipeline/blob/9bc5d836aa2df042fb01429a13de990c90e46f79/ec2-ebs-png/files%20used.PNG)
+
 
 Confirms:
 
