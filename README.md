@@ -76,7 +76,7 @@ All Airflow components run as separate containers to closely mirror a production
 - airflow-dag-processor  
 - postgres  
 - redis
-  ![Airflow UI](images/airflow_ui.png)
+  ![Airflow UI](ec2-ebs-png/files used.PNG)
 
 
 This confirms:
