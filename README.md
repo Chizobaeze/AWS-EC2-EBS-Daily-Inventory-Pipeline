@@ -75,7 +75,9 @@ All Airflow components run as separate containers to closely mirror a production
 - airflow-triggerer  
 - airflow-dag-processor  
 - postgres  
-- redis  
+- redis
+  ![Airflow UI](images/airflow_ui.png)
+
 
 This confirms:
 
