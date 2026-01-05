@@ -104,7 +104,7 @@ Airflow is accessible via the EC2 public IP on port 8080:
 - Task: `extract_ec2_data`  
 - Triggered by: Airflow user
 
-![Airflow UI](https://github.com/Chizobaeze/AWS-EC2-EBS-Daily-Inventory-Pipeline/blob/9bc5d836aa2df042fb01429a13de990c90e46f79/ec2-ebs-png/files%20used.PNG)
+![Airflow UI](https://github.com/Chizobaeze/AWS-EC2-EBS-Daily-Inventory-Pipeline/blob/cded72b57b9f6e26a6924c783576deb507620f2b/ec2-ebs-png/code%20ran%20perfectly%20well.PNG)
 
 
 Confirms:
