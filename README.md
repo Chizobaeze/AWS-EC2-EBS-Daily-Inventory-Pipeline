@@ -86,8 +86,11 @@ This confirms:
 - The environment is stable for scheduled workloads  
 
 ---
+## 🔐 Accessing the Airflow UI
 
-## 🔄 DAG: EC2 & EBS Daily Inventory
+Airflow is accessible via the EC2 public IP on port 8080:
+
+[http://18.175.176.91:8080](http://18.175.176.91:8080)
 
 **DAG Name:** `ec2_inventory_to_s3`  
 **Task:** `extract_ec2_data`  
