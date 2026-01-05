@@ -1,7 +1,7 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime
-from ec2_extract import ec2_data
+from dags.ec2_extract import ec2_data
 
 default_args = {
     'owner': 'chizoba',
