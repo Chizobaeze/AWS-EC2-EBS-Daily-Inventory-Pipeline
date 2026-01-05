@@ -41,7 +41,8 @@ File Format	Parquet
 AWS Helper Library	AWS Wrangler
 
 ## 📁 Project Structure
-"""  ec2_airflow/
+''' text
+ec2_airflow/
 │
 ├── dags/
 │   ├── ec2_extract.py
