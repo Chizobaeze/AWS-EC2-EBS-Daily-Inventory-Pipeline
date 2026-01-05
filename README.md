@@ -146,7 +146,7 @@ Daily inventory snapshots are written to Amazon S3 using **date-based naming**:
 s3://ec2-ebsinstances/zobs_instance/YYYY-MM-DD.parquet
 s3://ec2-ebsinstances/zobs_volumes/YYYY-MM-DD.parquet
 ```
-![Airflow UI]()
+![Airflow UI](https://github.com/Chizobaeze/AWS-EC2-EBS-Daily-Inventory-Pipeline/blob/0618ab7b701e7c18c4e67ddba278b4b52f7ba9d7/ec2-ebs-png/s3_bucket%20ec2_ebs_instance.PNG)
 Benefits:
 
 - Historical trend analysis  
