@@ -40,8 +40,10 @@ Storage	Amazon S3
 File Format	Parquet
 AWS Helper Library	AWS Wrangler
 
+
 ## 📁 Project Structure
-''' text
+
+```text
 ec2_airflow/
 │
 ├── dags/
