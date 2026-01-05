@@ -1,5 +1,5 @@
-AWS EC2 & EBS Daily Inventory Pipeline
-📌 Project Overview
+# AWS EC2 & EBS Daily Inventory Pipeline
+## 📌 Project Overview
 
 The AWS EC2 & EBS Daily Inventory Pipeline is an EC2-hosted Apache Airflow pipeline that collects daily inventory data for EC2 instances and EBS volumes across multiple AWS regions and stores the results in Amazon S3.
 
@@ -13,7 +13,7 @@ Maintain historical snapshots for auditing and cost optimization
 
 Demonstrate real-world Airflow deployment on AWS EC2
 
-🏗️ Architecture Overview
+## 🏗️ Architecture Overview
 
 Workflow:
 
@@ -29,7 +29,7 @@ AWS Wrangler writes Parquet files to Amazon S3
 
 Airflow logs execution and success state
 
-🧰 Tech Stack
+## 🧰 Tech Stack
 Layer	Technology
 Compute	AWS EC2
 Orchestration	Apache Airflow
@@ -39,7 +39,8 @@ Processing	Pandas
 Storage	Amazon S3
 File Format	Parquet
 AWS Helper Library	AWS Wrangler
-📁 Project Structure
+
+## 📁 Project Structure
 ec2_airflow/
 │
 ├── dags/
@@ -55,7 +56,7 @@ ec2_airflow/
 ├── requirements.txt
 └── README.md
 
-⚙️ Airflow Setup on EC2
+## ⚙️ Airflow Setup on EC2
 
 Apache Airflow is deployed on an AWS EC2 instance using Docker Compose.
 All Airflow components run as separate containers to closely mirror a production environment.
@@ -84,7 +85,7 @@ All required services are healthy
 
 The environment is stable for scheduled workloads
 
-🔐 Accessing the Airflow UI
+## 🔐 Accessing the Airflow UI
 
 Airflow is accessible via the EC2 public IP on port 8080:
 
@@ -93,7 +94,7 @@ http://18.175.176.91:8080
 
 The screenshot below shows the Airflow UI running successfully on the EC2 instance, with the DAG visible and operational:
 
-🔄 DAG: EC2 & EBS Daily Inventory
+## 🔄 DAG: EC2 & EBS Daily Inventory
 DAG Name
 ec2_inventory_to_s3
 
@@ -134,7 +135,7 @@ AWS credentials and permissions are valid
 
 Data extraction and S3 upload completed without errors
 
-📦 Data Collected
+## 📦 Data Collected
 EC2 Inventory
 
 Region
@@ -157,7 +158,7 @@ Unused EBS volumes can be identified using:
 
 State = available
 
-🗂️ S3 Output Structure
+## 🗂️ S3 Output Structure
 
 Daily inventory snapshots are written to Amazon S3 using date-based naming:
 
@@ -173,7 +174,7 @@ Easy Athena integration
 
 Cost and utilization reporting
 
-📅 Scheduling
+## 📅 Scheduling
 
 The DAG can be scheduled to run daily
 
@@ -181,7 +182,7 @@ Manual triggering is supported for testing
 
 Logical execution dates are tracked by Airflow
 
-🚀 Future Enhancements
+## 🚀 Future Enhancements
 
 Athena external tables for querying Parquet data
 
