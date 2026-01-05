@@ -76,7 +76,7 @@ All Airflow components run as separate containers to closely mirror a production
 - airflow-dag-processor  
 - postgres  
 - redis
-![Airflow UI]((https://github.com/Chizobaeze/AWS-EC2-EBS-Daily-Inventory-Pipeline/blob/9bc5d836aa2df042fb01429a13de990c90e46f79/ec2-ebs-png/files%20used.PNG))
+![Airflow UI](https://github.com/Chizobaeze/AWS-EC2-EBS-Daily-Inventory-Pipeline/blob/9bc5d836aa2df042fb01429a13de990c90e46f79/ec2-ebs-png/files%20used.PNG)
 
 
 This confirms:
