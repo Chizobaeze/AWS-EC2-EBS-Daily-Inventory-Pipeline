@@ -61,7 +61,7 @@ def ec2_data():
     df_instances = pd.DataFrame(instance_records)
     df_volumes = pd.DataFrame(volume_records)
 
-    # Save to S3 using awswrangler (no boto3 session passed!)
+    # Save to S3 using awswrangler 
     date_str = datetime.today().strftime("%Y-%m-%d")
 
     if not df_instances.empty:

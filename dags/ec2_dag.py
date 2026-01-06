@@ -13,7 +13,7 @@ default_args = {
 with DAG(
     dag_id="chizoba_ec2_inventory_to_s3",
     default_args=default_args,        
-    schedule_interval="@daily",       # Runs daily
+    schedule_interval="@daily",       
     catchup=False,      
 ) as dag:
 
